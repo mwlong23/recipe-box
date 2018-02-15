@@ -7,7 +7,9 @@ import { Recipe } from '../recipe.model';
   styleUrls: ['./recipe-list.component.css']
 })
 export class RecipeListComponent implements OnInit {
-  recipes: Recipe[] = [];
+  recipes: Recipe[] = [
+    new Recipe('hamburger', 'Description of hamburger','https://coconuts.co/public/field/image/slamon_burger_2_-_montine_rummel.jpg')
+  ];
   constructor() { }
 
   ngOnInit() {
