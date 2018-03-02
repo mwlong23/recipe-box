@@ -8,7 +8,8 @@ import { Recipe } from '../recipe.model';
 })
 export class RecipeListComponent implements OnInit {
   recipes: Recipe[] = [
-    new Recipe('hamburger', 'Description of hamburger', 'https://coconuts.co/public/field/image/slamon_burger_2_-_montine_rummel.jpg')
+    new Recipe('hamburger', 'Description of hamburger', 'https://coconuts.co/public/field/image/slamon_burger_2_-_montine_rummel.jpg'),
+    new Recipe('hamburger', 'Description of hamburger', 'https://coconuts.co/public/field/image/slamon_burger_2_-_montine_rummel.jpg'),
   ];
   constructor() { }
 
